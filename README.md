@@ -4,7 +4,7 @@ A clean, modern, and fully responsive personal portfolio website built with **Ne
 
 ## ✨ Live Demo
 
-👉 [View Portfolio Website]( )
+👉 [View Portfolio Website](https://farouk-abulrazak.vercel.app/)
 
 
 ---
@@ -12,7 +12,6 @@ A clean, modern, and fully responsive personal portfolio website built with **Ne
 ## 🚀 Features
 
 - ⚡ Fast, SEO-friendly, and responsive
-- 🌙 Dark/Light mode toggle
 - 📱 Mobile-first design
 - 🧩 Smooth animations & transitions
 - 📁 Projects section with images & links
@@ -24,7 +23,7 @@ A clean, modern, and fully responsive personal portfolio website built with **Ne
 
 ```bash
 .
-├── components/       # Reusable UI components
+├── src/              # Reusable UI components
 ├── pages/            # Application pages (Next.js routing)
 ├── public/           # Static assets (images, icons, etc.)
 ├── styles/           # Global and modular styles
