@@ -4,7 +4,7 @@ A clean, modern, and fully responsive personal portfolio website built with **Ne
 
 ## ✨ Live Demo
 
-👉 [View Portfolio Website](https://farouk-abdulrazak.vercel.app/)
+👉 [View Portfolio Website](https://faroukabdulrazak.vercel.app/)
 
 
 ---
