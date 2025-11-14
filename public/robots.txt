@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://faroukabdulrazak.vercel.app
+
+# Sitemaps
+Sitemap: https://faroukabdulrazak.vercel.app/sitemap.xml

@@ -1,4 +1,4 @@
-import { salimovSlider } from "@/src/sliderProps";
+import { handleSlider } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Clients = () => {
@@ -27,7 +27,7 @@ const Clients = () => {
       <div className="clients-container animated-layer fade-in-right-animation fadeInUp wow">
         <h3>Libraries Used</h3>
         <Swiper
-          {...salimovSlider.clients}
+          {...handleSlider.clients}
           className="swiper swiper-clients fadeInUp wow"
         >
           {groupedLibraries.map((pair, index) => (

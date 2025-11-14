@@ -52,22 +52,22 @@ const Contact = () => {
             <span className="small-text">follow me</span>
             <ul className="social">
               <li>
-                <a href="#">
+                <a href="https://github.com/FaroukAbdulrazak" target="_blank">
                   <i className="fa-brands fa-github" />
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-twitter" />
+                <a href="https://www.linkedin.com/in/faroukabdulrazak" target="_blank">
+                  <i className="fa-brands fa-linkedin" />
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-dribbble" />
+                <a href="https://www.instagram.com/farouk_abdulrazak" target="_blank">
+                  <i className="fa-brands fa-instagram" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/Farouk.Abdulrazak" target="_blank">
                   <i className="fa-brands fa-facebook" />
                 </a>
               </li>

@@ -250,14 +250,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Front End Supervisor</h4>
+                  <h4>Senior Front End</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
                     <span>2023 - Now</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>ATC Solution Company</span>
+                    <span>ATC Systematic Company</span>
                   </p>
                 </div>
               </div>

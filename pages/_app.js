@@ -1,7 +1,7 @@
 import CustomCursor from "@/src/CustomCursor";
 import Preloader from "@/src/components/Preloader";
 import Switcher from "@/src/components/Switcher";
-import SalimovHead from "@/src/SalimovHead";
+import FaroukHead from "@/src/FaroukHead";
 import "@/public/css/devicon.min.css";
 import "@/public/css/all.min.css";
 import "@/public/css/bootstrap.min.css";
@@ -16,7 +16,7 @@ import { Fragment } from "react";
 const App = ({ Component, pageProps }) => {
   return (
     <Fragment>
-      <SalimovHead />
+      <FaroukHead />
       <CustomCursor />
       <Switcher />
       <Preloader />

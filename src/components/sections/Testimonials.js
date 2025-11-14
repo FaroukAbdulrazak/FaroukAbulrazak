@@ -12,7 +12,7 @@ const Testimonials = () => {
                   We truly rely on his expertise. "
               </span>
               <span className="person">Ammar Hmammieh</span>
-              <span className="job">Senior Front End Developer - ATC Solution</span>
+              <span className="job">Senior Front End Developer - ATC Systematic</span>
               <span className="number">+963988501453</span>
             </p>
             <img src="assets/testimonials/testimonial-1.png" alt="" />
