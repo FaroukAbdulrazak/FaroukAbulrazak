@@ -71,6 +71,11 @@ const Contact = () => {
                   <i className="fa-brands fa-facebook" />
                 </a>
               </li>
+              <li>
+                <a href="mailto:faroukabdulrazzak@gmail.com">
+                  <i className="fa fa-envelope" />
+                </a>
+              </li>
             </ul>
           </div>
           {/* CONTACT ITEM ENDS */}

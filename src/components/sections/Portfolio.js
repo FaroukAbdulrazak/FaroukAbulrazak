@@ -29,6 +29,53 @@ const Portfolio = () => {
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
+            <img className="img-fluid" src="assets/portfolio/atc-systematic.png" title="ATC Systematic Website" alt="ATC Systematic Website" />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>ATC Systematic</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project:
+                  </span>
+                  <span>Our Company Website</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-user" /> Client:
+                  </span>
+                  <span>ATC Systematic</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration:
+                  </span>
+                  <span>3 months</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks:
+                  </span>
+                  <span>React</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://www.atcsystematic.com" target="_blank" className="custom-btn">
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
             <Swiper
               {...handleSlider.portfolioItems}
               className="swiper swiper-portfolio-item"
@@ -38,6 +85,9 @@ const Portfolio = () => {
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <img src="assets/portfolio/lumytic-customer.png" title="Lumytic Customer" alt="Lumytic Customer" />
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <img src="assets/portfolio/lumytic-admin.png" title="Lumytic Admin" alt="Lumytic Admin" />
               </SwiperSlide>
               <div className="swiper-pagination bottom-projects" />
             </Swiper>
@@ -87,19 +137,27 @@ const Portfolio = () => {
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
-            <img className="img-fluid" src="assets/portfolio/atc-systematic.png" title="ATC Systematic Website" alt="ATC Systematic Website" />
+            <Swiper
+              {...handleSlider.portfolioItems}
+              className="swiper swiper-portfolio-item"
+            >
+              <SwiperSlide className="swiper-slide">
+                <img src="assets/portfolio/help-portal.png" title="Lumytic Help Portal" alt="Lumytic Help Portal" />
+              </SwiperSlide>
+              <div className="swiper-pagination bottom-projects" />
+            </Swiper>
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>ATC Systematic</h4>
+            <h4>Help Portal</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project:
                   </span>
-                  <span>Our Company Website</span>
+                  <span>Lumytic Help Portal</span>
                 </li>
                 <li>
                   <span>
@@ -111,17 +169,17 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-regular fa-hourglass" /> Duration:
                   </span>
-                  <span>3 months</span>
+                  <span>2 months</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks:
                   </span>
-                  <span>React</span>
+                  <span>Docusaurus & Next.js</span>
                 </li>
               </ul>
             </div>
-            <a href="https://www.atcsystematic.com" target="_blank" className="custom-btn">
+            <a href="https://help.lumytic.com" target="_blank" className="custom-btn">
               <span>
                 preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
@@ -192,6 +250,59 @@ const Portfolio = () => {
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
         {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <Swiper
+              {...handleSlider.portfolioItems}
+              className="swiper swiper-portfolio-item"
+            >
+              <SwiperSlide className="swiper-slide">
+                <img src="assets/portfolio/digital-company.png" title="Digital Service Company Project" alt="Digital Service Company Project" />
+              </SwiperSlide>
+              <div className="swiper-pagination bottom-projects" />
+            </Swiper>
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Digital Service Company</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project:
+                  </span>
+                  <span>Digital Service Company Website</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-user" /> Client:
+                  </span>
+                  <span>Freelance</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration:
+                  </span>
+                  <span>2 Days</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks:
+                  </span>
+                  <span>React</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://digital-service-company.vercel.app/" target="_blank" className="custom-btn">
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">

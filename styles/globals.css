@@ -4,7 +4,7 @@
 @import "swiper/css/scrollbar";
 
 .swiper-portfolio {
-  padding-right: 250px;
+  padding-right: 100px;
 }
 
 @media screen and (max-width: 767px) {
