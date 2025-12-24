@@ -405,7 +405,7 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks:
                   </span>
-                  <span>Google Sheets & Google Apps Script & Google Maps</span>
+                  <span>Google Apps Script & Google Maps</span>
                 </li>
               </ul>
             </div>
