@@ -291,7 +291,7 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks:
                   </span>
-                  <span>React</span>
+                  <span>React & Cursor AI</span>
                 </li>
               </ul>
             </div>
